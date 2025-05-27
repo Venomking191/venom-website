@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Centered Text</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      font-size: 4em;
+      font-weight: bold;
+      opacity: 0;
+      transform: scale(0.8);
+      animation: fadeInZoom 2.0s ease-out forwards;
+    }
+
+    @keyframes fadeInZoom {
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>SOON...</h1>
+</body>
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="de-DE" prefix="og: https://ogp.me/ns#">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<title>Recycling Hof &ndash; DeathZone</title>
+	<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+	<link rel="canonical" href="index.html" />
+	<meta property="og:locale" content="de_DE" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Recycling Hof &ndash; DeathZone" />
+	<meta property="og:url" content="index.html" />
+	<meta property="og:site_name" content="DeathZone - Zombie Survival RP" />
+	<meta property="og:image" content="../../wp-content/uploads/2024/02/ComfyUI_00363_.png" />
+	<meta property="og:image:secure_url" content="../../wp-content/uploads/2024/02/ComfyUI_00363_.png" />
+	<meta property="og:image:width" content="704" />
+	<meta property="og:image:height" content="1000" />
+	<meta property="og:image:alt" content="Recycling Hof" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Recycling Hof &ndash; DeathZone" />
+	<meta name="twitter:image" content="../../wp-content/uploads/2024/02/ComfyUI_00363_.png" />
+
+	<link rel='dns-prefetch' href='http://www.googletagmanager.com/' />
+	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+	<link rel="alternate" type="application/rss+xml" title="DeathZone &raquo; Feed" href="../../feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="DeathZone &raquo; Kommentar-Feed"
+		href="../../comments/feed/index.html" />
+	<style id='rank-math-toc-block-style-inline-css' type='text/css'>
+		.wp-block-rank-math-toc-block nav ol {
+			counter-reset: item
+		}
+
+		.wp-block-rank-math-toc-block nav ol li {
+			display: block
+		}
+
+		.wp-block-rank-math-toc-block nav ol li:before {
+			content: counters(item, ".") " ";
+			counter-increment: item
+		}
+	</style>
+	<style id='classic-theme-styles-inline-css' type='text/css'>
+		/*! This file is auto-generated */
+		.wp-block-button__link {
+			color: #fff;
+			background-color: #32373c;
+			border-radius: 9999px;
+			box-shadow: none;
+			text-decoration: none;
+			padding: calc(.667em + 2px) calc(1.333em + 2px);
+			font-size: 1.125em
+		}
+
+		.wp-block-file__button {
+			background: #32373c;
+			color: #fff;
+			text-decoration: none
+		}
+	</style>
+	<style id='global-styles-inline-css' type='text/css'>
+		body {
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+			--wp--preset--font-size--small: 13px;
+			--wp--preset--font-size--medium: 20px;
+			--wp--preset--font-size--large: 36px;
+			--wp--preset--font-size--x-large: 42px;
+			--wp--preset--spacing--20: 0.44rem;
+			--wp--preset--spacing--30: 0.67rem;
+			--wp--preset--spacing--40: 1rem;
+			--wp--preset--spacing--50: 1.5rem;
+			--wp--preset--spacing--60: 2.25rem;
+			--wp--preset--spacing--70: 3.38rem;
+			--wp--preset--spacing--80: 5.06rem;
+			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+		}
+
+		:where(.is-layout-flex) {
+			gap: 0.5em;
+		}
+
+		:where(.is-layout-grid) {
+			gap: 0.5em;
+		}
+
+		body .is-layout-flow>.alignleft {
+			float: left;
+			margin-inline-start: 0;
+			margin-inline-end: 2em;
+		}
+
+		body .is-layout-flow>.alignright {
+			float: right;
+			margin-inline-start: 2em;
+			margin-inline-end: 0;
+		}
+
+		body .is-layout-flow>.aligncenter {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained>.alignleft {
+			float: left;
+			margin-inline-start: 0;
+			margin-inline-end: 2em;
+		}
+
+		body .is-layout-constrained>.alignright {
+			float: right;
+			margin-inline-start: 2em;
+			margin-inline-end: 0;
+		}
+
+		body .is-layout-constrained>.aligncenter {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+			max-width: var(--wp--style--global--content-size);
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained>.alignwide {
+			max-width: var(--wp--style--global--wide-size);
+		}
+
+		body .is-layout-flex {
+			display: flex;
+		}
+
+		body .is-layout-flex {
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+		body .is-layout-flex>* {
+			margin: 0;
+		}
+
+		body .is-layout-grid {
+			display: grid;
+		}
+
+		body .is-layout-grid>* {
+			margin: 0;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+
+		.wp-block-navigation a:where(:not(.wp-element-button)) {
+			color: inherit;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		.wp-block-pullquote {
+			font-size: 1.5em;
+			line-height: 1.6;
+		}
+	</style>
+	<style id='woocommerce-inline-inline-css' type='text/css'>
+		.woocommerce form .form-row .required {
+			visibility: visible;
+		}
+	</style>
+	<link rel='stylesheet' id='wpo_min-header-0-css'
+		href='../../wp-content/cache/wpo-minify/1708003126/assets/wpo-minify-header-0d58361c.min.css' type='text/css'
+		media='all' />
+	<link rel='stylesheet' id='wpo_min-header-1-css'
+		href='../../wp-content/cache/wpo-minify/1708003126/assets/wpo-minify-header-8c511305.min.css' type='text/css'
+		media='only screen and (max-width: 768px)' />
+	<link rel='stylesheet' id='wpo_min-header-2-css'
+		href='../../wp-content/cache/wpo-minify/1708003126/assets/wpo-minify-header-95dd512e.min.css' type='text/css'
+		media='all' />
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<script type="text/javascript" src="../../wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/jquery/jquery-migrate.min.js"
+		id="jquery-migrate-js"></script>
+	<script type="text/javascript"
+		src="../../wp-content/plugins/miniorange-discord-integration/includes/js/mo-discord-social_login.min.js"
+		id="mo-social-login-script-js"></script>
+	<script type="text/javascript"
+		src="../../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js" id="jquery-blockui-js"
+		data-wp-strategy="defer"></script>
+	<script type="text/javascript" src="../../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"
+		id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+	<script type="text/javascript" id="woocommerce-js-extra">
+		/* <![CDATA[ */
+		var woocommerce_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%" };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"
+		id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+
+	<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=GT-5RM8W7X" id="google_gtagjs-js"
+		async></script>
+	<script type="text/javascript" id="google_gtagjs-js-after">
+		/* <![CDATA[ */
+		window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); }
+		gtag('set', 'linker', { "domains": ["deathzone.gg"] });
+		gtag("js", new Date());
+		gtag("set", "developer_id.dZTNiMT", true);
+		gtag("config", "GT-5RM8W7X");
+		/* ]]> */
+	</script>
+
+	<link rel="https://api.w.org/" href="../../wp-json/index.html" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
+	<meta name="generator" content="WordPress 6.4.3" />
+	<meta name="generator" content="WooCommerce 8.5.2" />
+	<link rel='shortlink' href='../../indexb4f6.html?p=5662' />
+	<link rel="alternate" type="application/json+oembed"
+		href="../../wp-json/oembed/1.0/embed3acd.json?url=https%3A%2F%2Fdeathzone.gg%2Fserver%2Freycling-hof%2F" />
+	<link rel="alternate" type="text/xml+oembed"
+		href="../../wp-json/oembed/1.0/embed1325?url=https%3A%2F%2Fdeathzone.gg%2Fserver%2Freycling-hof%2F&amp;format=xml" />
+	<meta name="generator" content="Redux 4.4.11" />
+	<meta name="generator" content="Site Kit by Google 1.119.0" />
+	<style>
+		/* CSS added by WP Meta and Date Remover*/
+		.wp-block-post-author__name {
+			display: none !important;
+		}
+
+		.wp-block-post-date {
+			display: none !important;
+		}
+
+		.entry-meta {
+			display: none !important;
+		}
+
+		.home .entry-meta {
+			display: none;
+		}
+
+		.entry-footer {
+			display: none !important;
+		}
+
+		.home .entry-footer {
+			display: none;
+		}
+	</style>
+	<link rel="icon" type="image/png" href="../../wp-content/uploads/2024/01/462566308_585384140721447_6856044798514334367_n.jpg" /> <noscript>
+		<style>
+			.woocommerce-product-gallery {
+				opacity: 1 !important;
+			}
+		</style>
+	</noscript>
+	<meta name="generator"
+		content="Elementor 3.19.0; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-internal, google_font-enabled, font_display-swap">
+	<style id="pxl_theme_options-dynamic-css" title="dynamic-css" class="redux-options-output">
+		a {
+			color: #dd1111;
+		}
+
+		a:hover {
+			color: #dd3333;
+		}
+
+		a:active {
+			color: #dd3333;
+		}
+
+		#pxl-header-default .pxl-header-branding img,
+		#pxl-header-default #pxl-header-mobile .pxl-header-branding img,
+		#pxl-header-elementor #pxl-header-mobile .pxl-header-branding img,
+		.pxl-logo-mobile img {
+			height: 100px;
+		}
+
+		#pxl-page-title-default {
+			background-color: #b5b5b5;
+			background-repeat: no-repeat;
+			background-image: url('../../wp-content/uploads/2023/12/subheader-news.html');
+			background-size: cover;
+		}
+	</style>
+</head>
+
+<body
+	class="service-template-default single single-service postid-5662 theme-playhost woocommerce-no-js   pxl-redux-page  body-default-font   heading-default-font   bd-px-header--transparent  woocommerce-layout-grid elementor-default elementor-kit-8">
+	<div class="top-bar">
+		<span class='loginbar register'><a href='../../loginس/index.html'>Registrieren / Einloggen</a></span>
+	</div>
+
+	<div id="pxl-wapper" class="pxl-wapper">
+
+		<header id="pxl-header-elementor" class="is-sticky">
+			<div class="pxl-header-elementor-main px-header--transparent pxl-header--fix">
+				<div class="pxl-header-content">
+					<div class="row">
+						<div class="col-12">
+							<div data-elementor-type="wp-post" data-elementor-id="122" class="elementor elementor-122">
+								<section
+									class="elementor-section elementor-top-section elementor-element elementor-element-9849b0b elementor-section-boxed elementor-section-height-default elementor-section-height-default pxl-row-scroll-none pxl-bg-color-none pxl-section-overlay-none pxl-column-overflow-hidden-no pxl-column-overflow-gradient-no pxl-column-overflow-gradient-top-no"
+									data-id="9849b0b" data-element_type="section">
+
+
+									<div class="elementor-container elementor-column-gap-default ">
+										<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-16aa3b5 pxl-column-none pxl-section-offset-none"
+											data-id="16aa3b5" data-element_type="column">
+											<div class="elementor-widget-wrap elementor-element-populated">
+
+												<div class="elementor-element elementor-element-c0a22f3 elementor-widget elementor-widget-pxl_logo"
+													data-id="c0a22f3" data-element_type="widget"
+													data-widget_type="pxl_logo.default">
+													<div class="elementor-widget-container">
+														<div class="pxl-logo " data-wow-delay="ms">
+															<a href="../../index.html"> <img width="878" height="414"
+																	src="../../wp-content/uploads/2024/01/462566308_585384140721447_6856044798514334367_n.jpg"
+																	class="attachment-full" alt="" /> </a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-8fa571d pxl-column-none pxl-section-offset-none"
+											data-id="8fa571d" data-element_type="column">
+											<div class="elementor-widget-wrap elementor-element-populated">
+
+												<div class="elementor-element elementor-element-7a04f32 elementor-widget elementor-widget-pxl_menu"
+													data-id="7a04f32" data-element_type="widget"
+													data-widget_type="pxl_menu.default">
+													<div class="elementor-widget-container">
+														<div
+															class="pxl-nav-menu pxl-nav-menu1  fr-style-default show-effect-slideup sub-style-default">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-81bb045 pxl-column-none pxl-section-offset-none"
+												data-id="81bb045" data-element_type="column">
+												<div class="elementor-widget-wrap elementor-element-populated">
+
+													<div class="elementor-element elementor-element-4f0f914 elementor-align-right elementor-widget elementor-widget-pxl_button"
+														data-id="4f0f914" data-element_type="widget"
+														data-widget_type="pxl_button.default">
+														<div class="elementor-widget-container">
+															<div id="pxl-pxl_button-4f0f914-9935" class="pxl-button">
+															</div>
+														</div>
+													</div>
+													<div class="elementor-element elementor-element-7ac44ce elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile elementor-widget elementor-widget-pxl_text_editor"
+														data-id="7ac44ce" data-element_type="widget"
+														data-widget_type="pxl_text_editor.default">
+														<div class="elementor-widget-container">
+															<div class="pxl-text-editor">
+																<div class="pxl-item--inner wow skewIn"
+																	data-wow-delay="ms">
+																	<p
+																		style="font-size: 12px !important;text-align: right">
+																		<a href="../../login/index.html">Login /
+																			Registrieren</a></p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="pxl-header-mobile" class="style-light">
+				<div id="pxl-header-main" class="pxl-header-main">
+					<div class="container">
+						<div class="row">
+							<div class="pxl-header-branding">
+								<a href="../../index.html" title="Amouage Tourism" rel="home"><img
+										src="../../wp-content/uploads/2024/01/462566308_585384140721447_6856044798514334367_n.jpg" alt="Amouage Tourism" /></a>
+							</div>
+							<div class="pxl-header-menu">
+								<div class="pxl-header-menu-scroll">
+									<div class="pxl-menu-close pxl-hide-xl pxl-close"></div>
+									<div class="pxl-logo-mobile pxl-hide-xl">
+										<a href="../../index.html" title="Amouage Tourism" rel="home"><img
+												src="../../wp-content/uploads/2024/01/462566308_585384140721447_6856044798514334367_n.jpg"
+												alt="Amouage Tourism" /></a>
+									</div>
+									<nav class="pxl-header-nav">
+									</nav>
+								</div>
+							</div>
+							<div class="pxl-header-menu-backdrop"></div>
+						</div>
+					</div>
+					<div id="pxl-nav-mobile">
+						<div class="pxl-nav-mobile-button"><span></span></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="pxl-main">
+			<div class="container">
+				<div class="row pxl-content-wrap no-sidebar">
+					<div id="pxl-content-area" class="pxl-content-area pxl-content-service col-12">
+						<main id="pxl-content-main">
+							<article id="pxl-post-5662"
+								class="post-5662 service type-service status-publish has-post-thumbnail hentry service-category-legal">
+								<div class="pxl-entry-content clearfix">
+								</div>
+							</article>
+						</main>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer id="pxl-footer-elementor">
+			<div class="footer-elementor-inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div data-elementor-type="wp-post" data-elementor-id="187" class="elementor elementor-187">
+								<section
+									class="elementor-section elementor-top-section elementor-element elementor-element-2d5239a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default pxl-row-scroll-none pxl-bg-color-none pxl-section-overlay-none pxl-column-overflow-hidden-no pxl-column-overflow-gradient-no pxl-column-overflow-gradient-top-no"
+									data-id="2d5239a" data-element_type="section"
+									data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+
+
+									<div class="elementor-container elementor-column-gap-extended ">
+										<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-eef3aa1 pxl-column-none pxl-section-offset-none"
+											data-id="eef3aa1" data-element_type="column">
+											<div class="elementor-widget-wrap elementor-element-populated">
+
+												<div class="elementor-element elementor-element-c4d24c2 elementor-widget elementor-widget-pxl_logo"
+													data-id="c4d24c2" data-element_type="widget"
+													data-widget_type="pxl_logo.default">
+													<div class="elementor-widget-container">
+														<div class="pxl-logo " data-wow-delay="ms">
+															<a href="#"> <img fetchpriority="high" width="878"
+																	height="414"
+																	src="../../wp-content/uploads/2024/01/462566308_585384140721447_6856044798514334367_n.jpg"
+																	class="attachment-full" alt="" /> </a>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-8a1467e elementor-widget elementor-widget-pxl_text_editor"
+													data-id="8a1467e" data-element_type="widget"
+													data-widget_type="pxl_text_editor.default">
+													<div class="elementor-widget-container">
+														<div class="pxl-text-editor">
+															<div class="pxl-item--inner " data-wow-delay="ms">
+																<p>هل انت جاهز ؟ سجل ابتداء من اليوم معا شركت امواج للسياحة. شركت امواج لسياحة توفر لك افضل تجربة سياحية لرؤية عمان و زيارة المعالم السياحية</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-c24dcb5 pxl-column-none pxl-section-offset-none"
+											data-id="c24dcb5" data-element_type="column">
+											<div class="elementor-widget-wrap elementor-element-populated">
+
+												<div class="elementor-element elementor-element-f81ac9f elementor-widget elementor-widget-pxl_heading"
+													data-id="f81ac9f" data-element_type="widget"
+													data-widget_type="pxl_heading.default">
+													<div class="elementor-widget-container">
+
+														<div id="pxl-pxl_heading-f81ac9f-4431"
+															class="pxl-heading px-sub-title-default-style ">
+															<div class="pxl-heading--inner">
+
+																<h5 class="pxl-item--title " data-wow-delay="ms">
+																	Nützliche Links
+
+																</h5>
+
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-3f532f9 elementor-widget elementor-widget-pxl_link"
+													data-id="3f532f9" data-element_type="widget"
+													data-widget_type="pxl_link.default">
+													<div class="elementor-widget-container">
+														<ul id="pxl-link-pxl_link-3f532f9-8399"
+															class="pxl-link pxl-link-l1  style-default type-vertical"
+															data-wow-delay="ms">
+															<li>
+																<a class="" href="../../ueber-uns/index.html">
+																	<span>تجربة</span>
+																</a>
+															</li>
+															<li>
+																<a class="" href="../../login/index.html">
+																	<span>تجربة</span>
+																</a>
+															</li>
+															<li>
+																<a class="" href="../../hilfe/index.html">
+																	<span>تجربة</span>
+																</a>
+															</li>
+															<li>
+																<a class="" href="../../downloads/index.html"
+																	target="_blank">
+																	<span>تجربة</span>
+																</a>
+															</li>
+															<li>
+																<a class="" href="../../regelwerk/index.html"
+																	target="_blank">
+																	<span>تجربة</span>
+																</a>
+															</li>
+															<li>
+																<a class="" href="../../fraktionsregelwerk/index.html"
+																	target="_blank">
+																	<span>تجربة</span>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-0be6d72 pxl-column-none pxl-section-offset-none"
+											data-id="0be6d72" data-element_type="column">
+											<div class="elementor-widget-wrap elementor-element-populated">
+
+												<div class="elementor-element elementor-element-57bd67d elementor-widget elementor-widget-pxl_heading"
+													data-id="57bd67d" data-element_type="widget"
+													data-widget_type="pxl_heading.default">
+													<div class="elementor-widget-container">
+
+														<div id="pxl-pxl_heading-57bd67d-4534"
+															class="pxl-heading px-sub-title-default-style ">
+															<div class="pxl-heading--inner">
+
+																<h5 class="pxl-item--title " data-wow-delay="ms">
+																	تابعنا على حساباتنا
+
+																</h5>
+
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-c6e9e5c elementor-widget elementor-widget-pxl_icon"
+													data-id="c6e9e5c" data-element_type="widget"
+													data-widget_type="pxl_icon.default">
+													<div class="elementor-widget-container">
+														<div class="pxl-icon1 style-round-box  style-1"
+															data-wow-delay="ms">
+															<a class="elementor-repeater-item-a0340f6"
+																href="https://www.instagram.com/amwag_oman">
+																<i aria-hidden="true" class="fab fa-instagram"></i> </a>
+															<a class="elementor-repeater-item-dcf7724"
+																href="https://www.tiktoسk.com/@deathzone.rp">
+																<i aria-hidden="true" class="fab fa-tiktok"></i> </a>
+															<a class="elementor-repeater-item-2e000ea"
+																href="https://www.youtubسe.com/@DeathZone-RP">
+																<i aria-hidden="true" class="fab fa-youtube"></i> </a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section
+									class="elementor-section elementor-top-section elementor-element elementor-element-b939383 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default pxl-row-scroll-none pxl-bg-color-none pxl-section-overlay-none pxl-column-overflow-hidden-no pxl-column-overflow-gradient-no pxl-column-overflow-gradient-top-no"
+									data-id="b939383" data-element_type="section"
+									data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+
+
+									<div class="elementor-container elementor-column-gap-extended ">
+										<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-35bc938 pxl-column-none pxl-section-offset-none"
+											data-id="35bc938" data-element_type="column">
+											<div class="elementor-widget-wrap elementor-element-populated">
+
+												<div class="elementor-element elementor-element-27235c7 elementor-widget elementor-widget-pxl_text_editor"
+													data-id="27235c7" data-element_type="widget"
+													data-widget_type="pxl_text_editor.default">
+													<div class="elementor-widget-container">
+														<div class="pxl-text-editor">
+															<div class="pxl-item--inner " data-wow-delay="ms">
+																2024 ® Amouage Tourism<br>
+
+																<em style="font-size:10px">امواج موثقة,
+                                                                    و غير معلنا, من قبل شركة التجارة و الصناعة</em>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c1cc923 pxl-column-none pxl-section-offset-none"
+											data-id="c1cc923" data-element_type="column">
+											<div class="elementor-widget-wrap elementor-element-populated">
+
+												<div class="elementor-element elementor-element-5dd3baa elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-widget elementor-widget-pxl_link"
+													data-id="5dd3baa" data-element_type="widget"
+													data-widget_type="pxl_link.default">
+													<div class="elementor-widget-container">
+														<ul id="pxl-link-pxl_link-5dd3baa-7247"
+															class="pxl-link pxl-link-l1  style-default type-horizontal"
+															data-wow-delay="ms">
+															<li>
+																<a class=""
+																	href="../../impressum-datenschutz/index.html">
+																	<span>Imprint & data protection</span>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="float-text show-on-scroll left">
+			<span><a href="#">Scroll to top</a></span>
+		</div>
+		<div class="scrollbar-v show-on-scroll left"></div>
+		<a class="pxl-scroll-top" href="#"><i class="caseicon-long-arrow-right-three"></i></a>
+
+		<div class="pxl-cursor pxl-js-cursor style-default">
+			<div class="pxl-cursor-wrapper">
+				<div class="pxl-cursor--follower pxl-js-follower"></div>
+				<div class="pxl-cursor--label pxl-js-label"></div>
+				<div class="pxl-cursor--drap pxl-js-drap"></div>
+				<div class="pxl-cursor--icon pxl-js-icon"></div>
+			</div>
+		</div>
+		<div class="pxl-cursor-section"></div>
+	</div>
+	<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='wpo_min-footer-0-css'
+		href='../../wp-content/cache/wpo-minify/1708003126/assets/wpo-minify-footer-181f1119.min.css' type='text/css'
+		media='all' />
+	<script type="text/javascript" src="../../wp-content/plugins/bravis-user/style/js/notify.min.js"
+		id="notify-js"></script>
+	<script type="text/javascript" src="../../wp-content/plugins/bravis-user/style/js/remodal.min.js"
+		id="remodal-js"></script>
+	<script type="text/javascript" id="pxl-user-form-js-extra">
+		/* <![CDATA[ */
+		var bravisuser = { "ajax": "https:\/\/deathzone.gg\/wp-admin\/admin-ajax.php", "nonce": "26cf5e334a" };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/bravis-user/style/js/user-form.js"
+		id="pxl-user-form-js"></script>
+	<script type="text/javascript" src="../../wp-content/plugins/contact-form-7/includes/swv/js/index.js"
+		id="swv-js"></script>
+	<script type="text/javascript" id="contact-form-7-js-extra">
+		/* <![CDATA[ */
+		var wpcf7 = { "api": { "root": "https:\/\/deathzone.gg\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/contact-form-7/includes/js/index.js"
+		id="contact-form-7-js"></script>
+	<script type="text/javascript" id="wc-add-to-cart-js-extra">
+		/* <![CDATA[ */
+		var wc_add_to_cart_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "Warenkorb anzeigen", "cart_url": "https:\/\/deathzone.gg", "is_cart": "", "cart_redirect_after_add": "no" };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
+		id="wc-add-to-cart-js" data-wp-strategy="defer"></script>
+	<script type="text/javascript" src="../../wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js"
+		id="sourcebuster-js-js"></script>
+	<script type="text/javascript" id="wc-order-attribution-js-extra">
+		/* <![CDATA[ */
+		var wc_order_attribution = { "params": { "lifetime": 1.0e-5, "session": 30, "ajaxurl": "https:\/\/deathzone.gg\/wp-admin\/admin-ajax.php", "prefix": "wc_order_attribution_", "allowTracking": "yes" } };
+		/* ]]> */
+	</script>
+	<script type="text/javascript"
+		src="../../wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js"
+		id="wc-order-attribution-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/vendor/wp-polyfill-inert.min.js"
+		id="wp-polyfill-inert-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/vendor/regenerator-runtime.min.js"
+		id="regenerator-runtime-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/vendor/wp-polyfill.min.js"
+		id="wp-polyfill-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/vendor/react.min.js" id="react-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/hooks.min.js" id="wp-hooks-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/deprecated.min.js" id="wp-deprecated-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/dom.min.js" id="wp-dom-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/vendor/react-dom.min.js" id="react-dom-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/escape-html.min.js" id="wp-escape-html-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/element.min.js" id="wp-element-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/is-shallow-equal.min.js"
+		id="wp-is-shallow-equal-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/i18n.min.js" id="wp-i18n-js"></script>
+	<script type="text/javascript" id="wp-i18n-js-after">
+		/* <![CDATA[ */
+		wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
+		/* ]]> */
+	</script>
+	<script type="text/javascript" id="wp-keycodes-js-translations">
+		/* <![CDATA[ */
+		(function (domain, translations) {
+			var localeData = translations.locale_data[domain] || translations.locale_data.messages;
+			localeData[""].domain = domain;
+			wp.i18n.setLocaleData(localeData, domain);
+		})("default", { "translation-revision-date": "2024-01-31 19:08:22+0000", "generator": "GlotPress\/4.0.0-beta.2", "domain": "messages", "locale_data": { "messages": { "": { "domain": "messages", "plural-forms": "nplurals=2; plural=n != 1;", "lang": "de" }, "Tilde": ["Tilde"], "Backtick": ["Backtick"], "Period": ["Punkt"], "Comma": ["Komma"] } }, "comment": { "reference": "wp-includes\/js\/dist\/keycodes.js" } });
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/keycodes.min.js" id="wp-keycodes-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/priority-queue.min.js"
+		id="wp-priority-queue-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/compose.min.js" id="wp-compose-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/private-apis.min.js" id="wp-private-apis-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/redux-routine.min.js"
+		id="wp-redux-routine-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/data.min.js" id="wp-data-js"></script>
+	<script type="text/javascript" id="wp-data-js-after">
+		/* <![CDATA[ */
+		(function () {
+			var userId = 0;
+			var storageKey = "WP_DATA_USER_" + userId;
+			wp.data
+				.use(wp.data.plugins.persistence, { storageKey: storageKey });
+		})();
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/vendor/lodash.min.js" id="lodash-js"></script>
+	<script type="text/javascript" id="lodash-js-after">
+		/* <![CDATA[ */
+		window.lodash = _.noConflict();
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-registry.js"
+		id="wc-blocks-registry-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/url.min.js" id="wp-url-js"></script>
+	<script type="text/javascript" id="wp-api-fetch-js-translations">
+		/* <![CDATA[ */
+		(function (domain, translations) {
+			var localeData = translations.locale_data[domain] || translations.locale_data.messages;
+			localeData[""].domain = domain;
+			wp.i18n.setLocaleData(localeData, domain);
+		})("default", { "translation-revision-date": "2024-01-31 19:08:22+0000", "generator": "GlotPress\/4.0.0-beta.2", "domain": "messages", "locale_data": { "messages": { "": { "domain": "messages", "plural-forms": "nplurals=2; plural=n != 1;", "lang": "de" }, "You are probably offline.": ["Du bist wahrscheinlich offline."], "Media upload failed. If this is a photo or a large image, please scale it down and try again.": ["Das Hochladen der Mediendatei ist fehlgeschlagen. Wenn es sich um ein Foto oder ein gro\u00dfes Bild handelt, verkleinere es bitte und versuche es erneut."], "The response is not a valid JSON response.": ["Die Antwort ist keine g\u00fcltige JSON-Antwort."], "An unknown error occurred.": ["Ein unbekannter Fehler ist aufgetreten."] } }, "comment": { "reference": "wp-includes\/js\/dist\/api-fetch.js" } });
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/api-fetch.min.js" id="wp-api-fetch-js"></script>
+	<script type="text/javascript" id="wp-api-fetch-js-after">
+		/* <![CDATA[ */
+		wp.apiFetch.use(wp.apiFetch.createRootURLMiddleware("../../wp-json/index.html"));
+		wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware("a9ff7e9c7d");
+		wp.apiFetch.use(wp.apiFetch.nonceMiddleware);
+		wp.apiFetch.use(wp.apiFetch.mediaUploadMiddleware);
+		wp.apiFetch.nonceEndpoint = "../../wp-admin/admin-ajaxf809.html?action=rest-nonce";
+		/* ]]> */
+	</script>
+	<script type="text/javascript" id="wc-settings-js-before">
+		/* <![CDATA[ */
+		var wcSettings = wcSettings || JSON.parse(decodeURIComponent('%7B%22shippingCostRequiresAddress%22%3Afalse%2C%22adminUrl%22%3A%22https%3A%5C%2F%5C%2Fdeathzone.gg%5C%2Fwp-admin%5C%2F%22%2C%22countries%22%3A%7B%22EG%22%3A%22%5Cu00c4gypten%22%2C%22GQ%22%3A%22%5Cu00c4quatorialguinea%22%2C%22ET%22%3A%22%5Cu00c4thiopien%22%2C%22AF%22%3A%22Afghanistan%22%2C%22AX%22%3A%22%5Cu00c5land%22%2C%22AL%22%3A%22Albanien%22%2C%22DZ%22%3A%22Algerien%22%2C%22AS%22%3A%22Amerikanisch-Samoa%22%2C%22VI%22%3A%22Amerikanische%20Jungferninseln%22%2C%22AD%22%3A%22Andorra%22%2C%22AO%22%3A%22Angola%22%2C%22AI%22%3A%22Anguilla%22%2C%22AQ%22%3A%22Antarktika%22%2C%22AG%22%3A%22Antigua%20und%20Barbuda%22%2C%22AR%22%3A%22Argentinien%22%2C%22AM%22%3A%22Armenien%22%2C%22AW%22%3A%22Aruba%22%2C%22AZ%22%3A%22Aserbaidschan%22%2C%22AU%22%3A%22Australien%22%2C%22BS%22%3A%22Bahamas%22%2C%22BH%22%3A%22Bahrain%22%2C%22BD%22%3A%22Bangladesch%22%2C%22BB%22%3A%22Barbados%22%2C%22PW%22%3A%22Belau%22%2C%22BE%22%3A%22Belgien%22%2C%22BZ%22%3A%22Belize%22%2C%22BJ%22%3A%22Benin%22%2C%22BM%22%3A%22Bermuda%22%2C%22BT%22%3A%22Bhutan%22%2C%22BO%22%3A%22Bolivien%22%2C%22BQ%22%3A%22Bonaire%2C%20Saint%20Eustatius%20and%20Saba%22%2C%22BA%22%3A%22Bosnien%20und%20Herzegowina%22%2C%22BW%22%3A%22Botswana%22%2C%22BV%22%3A%22Bouvetinsel%22%2C%22BR%22%3A%22Brasilien%22%2C%22VG%22%3A%22Britische%20Jungferninseln%22%2C%22IO%22%3A%22Britisches%20Territorium%20im%20Indischen%20Ozean%22%2C%22BN%22%3A%22Brunei%22%2C%22BG%22%3A%22Bulgarien%22%2C%22BF%22%3A%22Burkina%20Faso%22%2C%22BI%22%3A%22Burundi%22%2C%22CL%22%3A%22Chile%22%2C%22CN%22%3A%22China%22%2C%22CK%22%3A%22Cookinseln%22%2C%22CR%22%3A%22Costa%20Rica%22%2C%22CW%22%3A%22Cura%26Ccedil%3Bao%22%2C%22DK%22%3A%22D%5Cu00e4nemark%22%2C%22DE%22%3A%22Deutschland%22%2C%22DM%22%3A%22Dominica%22%2C%22DO%22%3A%22Dominikanische%20Republik%22%2C%22DJ%22%3A%22Dschibuti%22%2C%22EC%22%3A%22Ecuador%22%2C%22SV%22%3A%22El%20Salvador%22%2C%22CI%22%3A%22Elfenbeink%5Cu00fcste%22%2C%22ER%22%3A%22Eritrea%22%2C%22EE%22%3A%22Estland%22%2C%22SZ%22%3A%22Eswatini%22%2C%22FO%22%3A%22F%5Cu00e4r%5Cu00f6er%22%2C%22FK%22%3A%22Falklandinseln%22%2C%22FJ%22%3A%22Fidschi%22%2C%22FI%22%3A%22Finnland%22%2C%22FR%22%3A%22Frankreich%22%2C%22GF%22%3A%22Franz%5Cu00f6sisch-Guayana%22%2C%22PF%22%3A%22Franz%5Cu00f6sisch-Polynesien%22%2C%22TF%22%3A%22Franz%5Cu00f6sische%20S%5Cu00fcd-%20und%20Antarktisgebiete%22%2C%22GA%22%3A%22Gabun%22%2C%22GM%22%3A%22Gambia%22%2C%22GE%22%3A%22Georgien%22%2C%22GH%22%3A%22Ghana%22%2C%22GI%22%3A%22Gibraltar%22%2C%22GD%22%3A%22Grenada%22%2C%22GR%22%3A%22Griechenland%22%2C%22GL%22%3A%22Gr%5Cu00f6nland%22%2C%22GP%22%3A%22Guadeloupe%22%2C%22GU%22%3A%22Guam%22%2C%22GT%22%3A%22Guatemala%22%2C%22GG%22%3A%22Guernsey%22%2C%22GN%22%3A%22Guinea%22%2C%22GW%22%3A%22Guinea-Bissau%22%2C%22GY%22%3A%22Guyana%22%2C%22HT%22%3A%22Haiti%22%2C%22HM%22%3A%22Heard%20und%20McDonaldinseln%22%2C%22HN%22%3A%22Honduras%22%2C%22HK%22%3A%22Hongkong%22%2C%22IN%22%3A%22Indien%22%2C%22ID%22%3A%22Indonesien%22%2C%22IQ%22%3A%22Irak%22%2C%22IR%22%3A%22Iran%22%2C%22IE%22%3A%22Irland%22%2C%22IS%22%3A%22Island%22%2C%22IM%22%3A%22Isle%20of%20Man%22%2C%22IL%22%3A%22Israel%22%2C%22IT%22%3A%22Italien%22%2C%22JM%22%3A%22Jamaika%22%2C%22JP%22%3A%22Japan%22%2C%22YE%22%3A%22Jemen%22%2C%22JE%22%3A%22Jersey%22%2C%22JO%22%3A%22Jordanien%22%2C%22KY%22%3A%22Kaimaninseln%22%2C%22KH%22%3A%22Kambodscha%22%2C%22CM%22%3A%22Kamerun%22%2C%22CA%22%3A%22Kanada%22%2C%22CV%22%3A%22Kap%20Verde%22%2C%22KZ%22%3A%22Kasachstan%22%2C%22QA%22%3A%22Katar%22%2C%22KE%22%3A%22Kenia%22%2C%22KG%22%3A%22Kirgisistan%22%2C%22KI%22%3A%22Kiribati%22%2C%22CC%22%3A%22Kokosinseln%20%28Keelinginseln%29%22%2C%22CO%22%3A%22Kolumbien%22%2C%22KM%22%3A%22Komoren%22%2C%22CG%22%3A%22Kongo-Brazzaville%22%2C%22CD%22%3A%22Kongo-Kinshasa%22%2C%22HR%22%3A%22Kroatien%22%2C%22CU%22%3A%22Kuba%22%2C%22KW%22%3A%22Kuwait%22%2C%22LA%22%3A%22Laos%22%2C%22LS%22%3A%22Lesotho%22%2C%22LV%22%3A%22Lettland%22%2C%22LB%22%3A%22Libanon%22%2C%22LR%22%3A%22Liberia%22%2C%22LY%22%3A%22Libyen%22%2C%22LI%22%3A%22Liechtenstein%22%2C%22LT%22%3A%22Litauen%22%2C%22LU%22%3A%22Luxemburg%22%2C%22MO%22%3A%22Macau%22%2C%22MG%22%3A%22Madagaskar%22%2C%22MW%22%3A%22Malawi%22%2C%22MY%22%3A%22Malaysia%22%2C%22MV%22%3A%22Malediven%22%2C%22ML%22%3A%22Mali%22%2C%22MT%22%3A%22Malta%22%2C%22MA%22%3A%22Marokko%22%2C%22MH%22%3A%22Marshallinseln%22%2C%22MQ%22%3A%22Martinique%22%2C%22MR%22%3A%22Mauretanien%22%2C%22MU%22%3A%22Mauritius%22%2C%22YT%22%3A%22Mayotte%22%2C%22MX%22%3A%22Mexiko%22%2C%22FM%22%3A%22Mikronesien%22%2C%22MD%22%3A%22Moldawien%22%2C%22MC%22%3A%22Monaco%22%2C%22MN%22%3A%22Mongolei%22%2C%22ME%22%3A%22Montenegro%22%2C%22MS%22%3A%22Montserrat%22%2C%22MZ%22%3A%22Mosambik%22%2C%22MM%22%3A%22Myanmar%22%2C%22NA%22%3A%22Namibia%22%2C%22NR%22%3A%22Nauru%22%2C%22NP%22%3A%22Nepal%22%2C%22NC%22%3A%22Neukaledonien%22%2C%22NZ%22%3A%22Neuseeland%22%2C%22NI%22%3A%22Nicaragua%22%2C%22NL%22%3A%22Niederlande%22%2C%22NE%22%3A%22Niger%22%2C%22NG%22%3A%22Nigeria%22%2C%22NU%22%3A%22Niue%22%2C%22MP%22%3A%22N%5Cu00f6rdliche%20Marianen%22%2C%22KP%22%3A%22Nordkorea%22%2C%22MK%22%3A%22Nordmazedonien%22%2C%22NF%22%3A%22Norfolkinsel%22%2C%22NO%22%3A%22Norwegen%22%2C%22AT%22%3A%22%5Cu00d6sterreich%22%2C%22OM%22%3A%22Oman%22%2C%22TL%22%3A%22Osttimor%22%2C%22PK%22%3A%22Pakistan%22%2C%22PS%22%3A%22Pal%5Cu00e4stinensische%20Autonomiegebiete%22%2C%22PA%22%3A%22Panama%22%2C%22PG%22%3A%22Papua-Neuguinea%22%2C%22PY%22%3A%22Paraguay%22%2C%22PE%22%3A%22Peru%22%2C%22PH%22%3A%22Philippinen%22%2C%22PN%22%3A%22Pitcairninseln%22%2C%22PL%22%3A%22Polen%22%2C%22PT%22%3A%22Portugal%22%2C%22PR%22%3A%22Puerto%20Rico%22%2C%22RE%22%3A%22R%5Cu00e9union%22%2C%22RW%22%3A%22Ruanda%22%2C%22RO%22%3A%22Rum%5Cu00e4nien%22%2C%22RU%22%3A%22Russland%22%2C%22BL%22%3A%22Saint%20Barth%26eacute%3Blemy%22%2C%22SX%22%3A%22Saint%20Martin%20%28Dutch%20part%29%22%2C%22PM%22%3A%22Saint-Pierre%20und%20Miquelon%22%2C%22SB%22%3A%22Salomonen%22%2C%22ZM%22%3A%22Sambia%22%2C%22WS%22%3A%22Samoa%22%2C%22SM%22%3A%22San%20Marino%22%2C%22ST%22%3A%22S%26atilde%3Bo%20Tom%26eacute%3B%20and%20Pr%26iacute%3Bncipe%22%2C%22SA%22%3A%22Saudi-Arabien%22%2C%22SE%22%3A%22Schweden%22%2C%22CH%22%3A%22Schweiz%22%2C%22SN%22%3A%22Senegal%22%2C%22RS%22%3A%22Serbien%22%2C%22SC%22%3A%22Seychellen%22%2C%22SL%22%3A%22Sierra%20Leone%22%2C%22ZW%22%3A%22Simbabwe%22%2C%22SG%22%3A%22Singapur%22%2C%22SK%22%3A%22Slowakei%22%2C%22SI%22%3A%22Slowenien%22%2C%22SO%22%3A%22Somalia%22%2C%22ES%22%3A%22Spanien%22%2C%22LK%22%3A%22Sri%20Lanka%22%2C%22SH%22%3A%22St.%20Helena%22%2C%22KN%22%3A%22St.%20Kitts%20und%20Nevis%22%2C%22LC%22%3A%22St.%20Lucia%22%2C%22MF%22%3A%22St.%20Martin%20%28franz%5Cu00f6sischer%20Teil%29%22%2C%22VC%22%3A%22St.%20Vincent%20und%20die%20Grenadinen%22%2C%22SD%22%3A%22Sudan%22%2C%22ZA%22%3A%22S%5Cu00fcdafrika%22%2C%22GS%22%3A%22S%5Cu00fcdgeorgien%20%5C%2F%20Sandwich-Inseln%22%2C%22KR%22%3A%22S%5Cu00fcdkorea%22%2C%22SS%22%3A%22S%5Cu00fcdsudan%22%2C%22SR%22%3A%22Suriname%22%2C%22SJ%22%3A%22Svalbard%20und%20Jan%20Mayen%22%2C%22SY%22%3A%22Syrien%22%2C%22TJ%22%3A%22Tadschikistan%22%2C%22TW%22%3A%22Taiwan%22%2C%22TZ%22%3A%22Tansania%22%2C%22TH%22%3A%22Thailand%22%2C%22TG%22%3A%22Togo%22%2C%22TK%22%3A%22Tokelau%22%2C%22TO%22%3A%22Tonga%22%2C%22TT%22%3A%22Trinidad%20und%20Tobago%22%2C%22TD%22%3A%22Tschad%22%2C%22CZ%22%3A%22Tschechien%22%2C%22TR%22%3A%22T%5Cu00fcrkei%22%2C%22TN%22%3A%22Tunesien%22%2C%22TM%22%3A%22Turkmenistan%22%2C%22TC%22%3A%22Turks-%20und%20Caicosinseln%22%2C%22TV%22%3A%22Tuvalu%22%2C%22UG%22%3A%22Uganda%22%2C%22UA%22%3A%22Ukraine%22%2C%22HU%22%3A%22Ungarn%22%2C%22UM%22%3A%22United%20States%20%28US%29%20Minor%20Outlying%20Islands%22%2C%22UY%22%3A%22Uruguay%22%2C%22UZ%22%3A%22Usbekistan%22%2C%22VU%22%3A%22Vanuatu%22%2C%22VA%22%3A%22Vatikanstadt%22%2C%22VE%22%3A%22Venezuela%22%2C%22AE%22%3A%22Vereinigte%20Arabische%20Emirate%22%2C%22US%22%3A%22Vereinigte%20Staaten%20von%20Amerika%20%28USA%29%22%2C%22GB%22%3A%22Vereinigtes%20K%5Cu00f6nigreich%22%2C%22VN%22%3A%22Vietnam%22%2C%22WF%22%3A%22Wallis%20und%20Futuna%22%2C%22CX%22%3A%22Weihnachtsinsel%22%2C%22BY%22%3A%22Wei%5Cu00dfrussland%22%2C%22EH%22%3A%22Westsahara%22%2C%22CF%22%3A%22Zentralafrikanische%20Republik%22%2C%22CY%22%3A%22Zypern%22%7D%2C%22currency%22%3A%7B%22code%22%3A%22USD%22%2C%22precision%22%3A2%2C%22symbol%22%3A%22%24%22%2C%22symbolPosition%22%3A%22left%22%2C%22decimalSeparator%22%3A%22.%22%2C%22thousandSeparator%22%3A%22%2C%22%2C%22priceFormat%22%3A%22%251%24s%252%24s%22%7D%2C%22currentUserId%22%3A0%2C%22currentUserIsAdmin%22%3Afalse%2C%22dateFormat%22%3A%22F%20j%2C%20Y%22%2C%22homeUrl%22%3A%22https%3A%5C%2F%5C%2Fdeathzone.gg%5C%2F%22%2C%22locale%22%3A%7B%22siteLocale%22%3A%22de_DE%22%2C%22userLocale%22%3A%22de_DE%22%2C%22weekdaysShort%22%3A%5B%22So%22%2C%22Mo%22%2C%22Di%22%2C%22Mi%22%2C%22Do%22%2C%22Fr%22%2C%22Sa%22%5D%7D%2C%22dashboardUrl%22%3A%22https%3A%5C%2F%5C%2Fdeathzone.gg%5C%2F%3Fpage_id%3D13%22%2C%22orderStatuses%22%3A%7B%22pending%22%3A%22Zahlung%20ausstehend%22%2C%22processing%22%3A%22In%20Bearbeitung%22%2C%22on-hold%22%3A%22In%20Wartestellung%22%2C%22completed%22%3A%22Abgeschlossen%22%2C%22cancelled%22%3A%22Storniert%22%2C%22refunded%22%3A%22R%5Cu00fcckerstattet%22%2C%22failed%22%3A%22Fehlgeschlagen%22%2C%22checkout-draft%22%3A%22Entwurf%22%7D%2C%22placeholderImgSrc%22%3A%22https%3A%5C%2F%5C%2Fdeathzone.gg%5C%2Fwp-content%5C%2Fplugins%5C%2Fwoocommerce%5C%2Fassets%5C%2Fimages%5C%2Fplaceholder.png%22%2C%22productsSettings%22%3A%7B%22cartRedirectAfterAdd%22%3Afalse%7D%2C%22siteTitle%22%3A%22DeathZone%22%2C%22storePages%22%3A%7B%22myaccount%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%2C%22shop%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%2C%22cart%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%2C%22checkout%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%2C%22privacy%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%2C%22terms%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%7D%2C%22wcAssetUrl%22%3A%22https%3A%5C%2F%5C%2Fdeathzone.gg%5C%2Fwp-content%5C%2Fplugins%5C%2Fwoocommerce%5C%2Fassets%5C%2F%22%2C%22wcVersion%22%3A%228.5.2%22%2C%22wpLoginUrl%22%3A%22https%3A%5C%2F%5C%2Fdeathzone.gg%5C%2Fwp-login.php%22%2C%22wpVersion%22%3A%226.4.3%22%2C%22collectableMethodIds%22%3A%5B%5D%2C%22admin%22%3A%7B%22wccomHelper%22%3A%7B%22isConnected%22%3Afalse%2C%22connectURL%22%3A%22https%3A%5C%2F%5C%2Fdeathzone.gg%5C%2Fwp-admin%5C%2Fadmin.php%3Fpage%3Dwc-addons%26section%3Dhelper%26wc-helper-connect%3D1%26wc-helper-nonce%3D5f606eaa30%22%2C%22userEmail%22%3A%22%22%2C%22userAvatar%22%3A%22https%3A%5C%2F%5C%2Fsecure.gravatar.com%5C%2Favatar%5C%2F%3Fs%3D48%26d%3Dmm%26r%3Dg%22%2C%22storeCountry%22%3A%22US%22%2C%22inAppPurchaseURLParams%22%3A%7B%22wccom-site%22%3A%22https%3A%5C%2F%5C%2Fdeathzone.gg%22%2C%22wccom-back%22%3A%22%252Fserver%252Freycling-hof%252F%22%2C%22wccom-woo-version%22%3A%228.5.2%22%2C%22wccom-connect-nonce%22%3A%225f606eaa30%22%7D%7D%2C%22_feature_nonce%22%3A%2274bd8f6fe9%22%2C%22alertCount%22%3A%220%22%2C%22visibleTaskListIds%22%3A%5B%22setup%22%5D%7D%7D'));
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/woocommerce/assets/client/blocks/wc-settings.js"
+		id="wc-settings-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/data-controls.min.js"
+		id="wp-data-controls-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/html-entities.min.js"
+		id="wp-html-entities-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/notices.min.js" id="wp-notices-js"></script>
+	<script type="text/javascript" id="wc-blocks-middleware-js-before">
+		/* <![CDATA[ */
+		var wcBlocksMiddlewareConfig = {
+			storeApiNonce: '44fab39e6d',
+			wcStoreApiNonceTimestamp: '1708119588'
+		};
+
+		/* ]]> */
+	</script>
+	<script type="text/javascript"
+		src="../../wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-middleware.js"
+		id="wc-blocks-middleware-js"></script>
+	<script type="text/javascript" id="wc-blocks-data-store-js-translations">
+		/* <![CDATA[ */
+		(function (domain, translations) {
+			var localeData = translations.locale_data[domain] || translations.locale_data.messages;
+			localeData[""].domain = domain;
+			wp.i18n.setLocaleData(localeData, domain);
+		})("woocommerce", { "translation-revision-date": "2024-02-15 19:08:35+0000", "generator": "GlotPress\/4.0.0-beta.2", "domain": "messages", "locale_data": { "messages": { "": { "domain": "messages", "plural-forms": "nplurals=2; plural=n != 1;", "lang": "de" }, "The quantity of \"%1$s\" was changed to %2$d.": ["Die Menge von \u201e%1$s\u201c wurde in %2$d ge\u00e4ndert."], "The quantity of \"%1$s\" was decreased to %2$d. This is the maximum allowed quantity.": ["Die Menge von \u201e%1$s\u201c wurde auf %2$d verringert. Dies ist die zul\u00e4ssige H\u00f6chstmenge."], "The quantity of \"%1$s\" was increased to %2$d. This is the minimum required quantity.": ["Die Menge von \u201e%1$s\u201c wurde auf %2$d erh\u00f6ht. Dies ist die erforderliche Mindestmenge."], "The quantity of \"%1$s\" was changed to %2$d. You must purchase this product in groups of %3$d.": ["Die Menge von \u201e%1$s\u201c wurde in %2$d ge\u00e4ndert. Du musst dieses Produkt in Gruppen von %3$d kaufen."], "\"%s\" was removed from your cart.": ["\u201e%s\u201c wurde aus deinem Warenkorb entfernt."], "Flat rate shipping": ["Versandkostenpauschale"], "Hoodie with Pocket": ["Hoodie mit Tasche"], "Hoodie with Logo": ["Hoodie mit Logo"], "Hoodie with Zipper": ["Hoodie mit Rei\u00dfverschluss"], "Long Sleeve Tee": ["Langarm-Shirt"], "T-Shirt": ["T-Shirt"], "Polo": ["Poloshirt"], "%s (optional)": ["%s (optional)"], "There was an error registering the payment method with id '%s': ": ["Beim Registrieren der Zahlungsmethode mit der ID \u2018%s\u2019 ist ein Fehler aufgetreten: "], "Orange": ["Orange"], "Yellow": ["Gelb"], "Warm hat for winter": ["Warmer Hut f\u00fcr den Winter"], "Lightweight baseball cap": ["Leichte Baseball-Kappe"], "Cap": ["Kappe"], "Beanie": ["Beanie"], "example product in Cart Block\u0004Beanie": ["Beanie"], "example product in Cart Block\u0004Beanie with Logo": ["Beanie mit Logo"], "Something went wrong. Please contact us to get assistance.": ["Es ist ein Fehler aufgetreten. Bitte kontaktiere uns, wenn du Hilfe ben\u00f6tigst."], "The response is not a valid JSON response.": ["Dies ist keine g\u00fcltige JSON-Antwort."], "Unable to get cart data from the API.": ["Warenkorbdaten k\u00f6nnen von der API nicht abgerufen werden."], "Sales tax": ["Umsatzsteuer"], "Color": ["Farbe"], "Small": ["Klein"], "Size": ["Gr\u00f6\u00dfe"], "Free shipping": ["Kostenlose Lieferung"], "Shipping": ["Versand"], "Local pickup": ["Abholung vor Ort"], "Fee": ["Geb\u00fchr"] } }, "comment": { "reference": "assets\/client\/blocks\/wc-blocks-data.js" } });
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-data.js"
+		id="wc-blocks-data-store-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/dom-ready.min.js" id="wp-dom-ready-js"></script>
+	<script type="text/javascript" id="wp-a11y-js-translations">
+		/* <![CDATA[ */
+		(function (domain, translations) {
+			var localeData = translations.locale_data[domain] || translations.locale_data.messages;
+			localeData[""].domain = domain;
+			wp.i18n.setLocaleData(localeData, domain);
+		})("default", { "translation-revision-date": "2024-01-31 19:08:22+0000", "generator": "GlotPress\/4.0.0-beta.2", "domain": "messages", "locale_data": { "messages": { "": { "domain": "messages", "plural-forms": "nplurals=2; plural=n != 1;", "lang": "de" }, "Notifications": ["Benachrichtigungen"] } }, "comment": { "reference": "wp-includes\/js\/dist\/a11y.js" } });
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/a11y.min.js" id="wp-a11y-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/primitives.min.js" id="wp-primitives-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/dist/warning.min.js" id="wp-warning-js"></script>
+	<script type="text/javascript" id="wc-blocks-components-js-translations">
+		/* <![CDATA[ */
+		(function (domain, translations) {
+			var localeData = translations.locale_data[domain] || translations.locale_data.messages;
+			localeData[""].domain = domain;
+			wp.i18n.setLocaleData(localeData, domain);
+		})("woocommerce", { "translation-revision-date": "2024-02-15 19:08:35+0000", "generator": "GlotPress\/4.0.0-beta.2", "domain": "messages", "locale_data": { "messages": { "": { "domain": "messages", "plural-forms": "nplurals=2; plural=n != 1;", "lang": "de" }, "Please fix the following errors before continuing": ["Behebe die folgenden Fehler, bevor du fortf\u00e4hrst"], "Please enter a valid %s": ["Bitte gib eine g\u00fcltige %s ein"], "Remove \"%s\"": ["Entferne \u201e%s\u201d"], "Something went wrong. Please contact us to get assistance.": ["Es ist ein Fehler aufgetreten. Bitte kontaktiere uns, wenn du Hilfe ben\u00f6tigst."], "Dismiss this notice": ["Diesen Hinweis ausblenden"], "Show %s more option": ["Zeigt %s weitere Option an.", "Zeigt %s weitere Optionen an."], "Show less": ["Weniger anzeigen"], "Show less options": ["Weniger Optionen anzeigen"], "Show %s more": ["%s mehr anzeigen", "%s mehr anzeigen"], "Subtotal": ["Zwischensumme"], "Taxes": ["Steuern"], "Remove": ["Entfernen"], "Fee": ["Geb\u00fchr"] } }, "comment": { "reference": "assets\/client\/blocks\/blocks-components.js" } });
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/woocommerce/assets/client/blocks/blocks-components.js"
+		id="wc-blocks-components-js"></script>
+	<script type="text/javascript" id="wc-blocks-checkout-js-translations">
+		/* <![CDATA[ */
+		(function (domain, translations) {
+			var localeData = translations.locale_data[domain] || translations.locale_data.messages;
+			localeData[""].domain = domain;
+			wp.i18n.setLocaleData(localeData, domain);
+		})("woocommerce", { "translation-revision-date": "2024-02-15 19:08:35+0000", "generator": "GlotPress\/4.0.0-beta.2", "domain": "messages", "locale_data": { "messages": { "": { "domain": "messages", "plural-forms": "nplurals=2; plural=n != 1;", "lang": "de" }, "Please fix the following errors before continuing": ["Behebe die folgenden Fehler, bevor du fortf\u00e4hrst"], "Please enter a valid %s": ["Bitte gib eine g\u00fcltige %s ein"], "The type returned by checkout filters must be the same as the type they receive. The function received %1$s but returned %2$s.": ["Der von den Bezahlen-Filtern zur\u00fcckgegebene Typ muss dem empfangenen Typ entsprechen. Die Funktion hat %1$s empfangen, jedoch %2$s zur\u00fcckgegeben."], "Returned value must include %1$s, you passed \"%2$s\"": ["Zur\u00fcckgegebener Wert muss %1$s enthalten. Du hast \u201e%2$s\u201c \u00fcbergeben."], "Something went wrong. Please contact us to get assistance.": ["Es ist ein Fehler aufgetreten. Bitte kontaktiere uns, wenn du Hilfe ben\u00f6tigst."], "Unable to get cart data from the API.": ["Warenkorbdaten k\u00f6nnen von der API nicht abgerufen werden."], "Dismiss this notice": ["Diesen Hinweis ausblenden"], "Subtotal": ["Zwischensumme"], "Taxes": ["Steuern"], "Fee": ["Geb\u00fchr"] } }, "comment": { "reference": "assets\/client\/blocks\/blocks-checkout.js" } });
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/woocommerce/assets/client/blocks/blocks-checkout.js"
+		id="wc-blocks-checkout-js"></script>
+	<script type="text/javascript"
+		src="../../wp-content/plugins/woocommerce/assets/js/frontend/order-attribution-blocks.min.js"
+		id="wc-order-attribution-blocks-js"></script>
+	<script type="text/javascript" id="custom-script-js-extra">
+		/* <![CDATA[ */
+		var wpdata = { "object_id": "5662", "site_url": "https:\/\/deathzone.gg" };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/wp-meta-and-date-remover/assets/js/inspector.js"
+		id="custom-script-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/elements/widgets/js/elementor.js"
+		id="playhost-elementor-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/elements/widgets/js/parallax-scroll.js"
+		id="pxl-parallax-scroll-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/elements/widgets/js/pxl-swiper-slider.js"
+		id="playhost-swiper-slider-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/elements/widgets/js/rangeslider.js"
+		id="playhost-rangeslider-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/assets/js/libs/select.js"
+		id="pxl-select-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/elements/widgets/js/three.min.js"
+		id="playhost-three-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/assets/js/libs/magnific-popup.min.js"
+		id="magnific-popup-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/assets/js/libs/wow.min.js"
+		id="wow-animate-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/assets/js/libs/stellar-parallax.min.js"
+		id="stellar-parallax-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/assets/js/libs/nice-select.min.js"
+		id="nice-select-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/assets/js/libs/gsap.min.js"
+		id="gsap-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/woocommerce/js/woocommerce.js"
+		id="pxl-woocommerce-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/assets/js/libs/scroll-trigger.js"
+		id="pxl-scroll-trigger-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/assets/js/libs/smoothscroll.js"
+		id="pxl-smoothscroll-js"></script>
+	<script type="text/javascript" id="pxl-main-js-extra">
+		/* <![CDATA[ */
+		var main_data = { "ajax_url": "https:\/\/deathzone.gg\/wp-admin\/admin-ajax.php" };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/assets/js/theme.js" id="pxl-main-js"></script>
+	<script type="text/javascript" id="wooaa-frontend-js-extra">
+		/* <![CDATA[ */
+		var wooaa_vars = { "ajax_url": "https:\/\/deathzone.gg\/wp-admin\/admin-ajax.php", "nonce": "7a34e8279e", "product_types": "all", "ignore": ".disabled,.wpc-disabled,.wooaa-disabled,.wooco-disabled,.woosb-disabled,.woobt-disabled,.woosg-disabled,.woofs-disabled,.woopq-disabled,.wpcbn-btn,.wpcev-btn,.wpcuv-update", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "cart_url": "https:\/\/deathzone.gg", "cart_redirect_after_add": "no" };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/wpc-ajax-add-to-cart/assets/js/frontend.js"
+		id="wooaa-frontend-js"></script>
+	<script type="text/javascript" src="../../wp-content/themes/playhost/assets/js/libs/cursor.js"
+		id="playhost-cursor-js"></script>
+	<script type="text/javascript" src="../../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
+		id="elementor-webpack-runtime-js"></script>
+	<script type="text/javascript" src="../../wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
+		id="elementor-frontend-modules-js"></script>
+	<script type="text/javascript" src="../../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
+		id="elementor-waypoints-js"></script>
+	<script type="text/javascript" src="../../wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+	<script type="text/javascript" id="elementor-frontend-js-before">
+		/* <![CDATA[ */
+		var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Auf Facebook teilen", "shareOnTwitter": "Auf Twitter teilen", "pinIt": "Anheften", "download": "Download", "downloadImage": "Bild downloaden", "fullscreen": "Vollbild", "zoom": "Zoom", "share": "Teilen", "playVideo": "Video abspielen", "previous": "Zur\u00fcck", "next": "Weiter", "close": "Schlie\u00dfen", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": true }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Breitbild", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.19.0", "is_static": false, "experimentalFeatures": { "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "additional_custom_breakpoints": true, "container": true, "e_swiper_latest": true, "block_editor_assets_optimize": true, "ai-layout": true, "landing-pages": true, "e_image_loading_optimization": true, "e_global_styleguide": true }, "urls": { "assets": "https:\/\/deathzone.gg\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 187, "title": "Recycling%20Hof%20%E2%80%93%20DeathZone", "excerpt": "", "featuredImage": false } };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/elementor/assets/js/frontend.min.js"
+		id="elementor-frontend-js"></script>
+</body>
+
+</html>
